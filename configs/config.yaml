@@ -1,0 +1,4 @@
+data:
+  raw_path: data/raw/<your-file>.csv
+  processed_path: data/processed/listings_clean.csv
+random_seed: 42

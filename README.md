@@ -27,25 +27,15 @@ Another challenge is applying the concept of value alignment on quantitative sce
 .
 ├── configs/            Project configuration
 ├── data/
-│   ├── raw/            Downloaded source data (not tracked)
-│   ├── processed/      Cleaned data for modeling
-│   └── DATA_CARD.md    Dataset source, license, and notes
-├── notebooks/          Exploratory notebooks
+│   ├── raw/            Downloaded source data
+│   └── processed/      Cleaned data
 ├── src/
 │   ├── data/           Data loading and preprocessing
 │   ├── models/         Model training and evaluation
-│   ├── rhodium_wrapper/  Rhodium model definition, scenario discovery, sensitivity analysis
 │   └── utils/          Plotting helpers
-├── results/
-│   ├── figures/
-│   ├── tables/
-│   └── models/
-├── docs/
-│   ├── workflow.md         Generalizable workflow
-│   ├── value_alignment.md  Value alignment write-up
-│   └── project_log.md      Progress notes
-├── report/             Final report and slides
-└── tests/
+└── report/             
+    └── slides/         Final slides
+
 ```
 
 ## Timeline
